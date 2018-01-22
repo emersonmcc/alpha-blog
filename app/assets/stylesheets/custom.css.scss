@@ -22,15 +22,16 @@ $navbar-default-bg: #3d3d3d;
 }
 
 .jumbotron {
-  background-image: asset-url('home_background.jpg');
+  background-image: asset-url('grayscale_office.jpg');
   background-size: cover;
+  background-position: center;
   height: 550px;
 }
 
 .jumbotron h1 {
   color: #fff;
-  text-align: center;
-  margin-top: 160px;
+  margin-left: -50px;
+  margin-top: 350px;
   margin-bottom: 30px;
   letter-spacing: -1px;
   font-weight: bold;
@@ -39,6 +40,7 @@ $navbar-default-bg: #3d3d3d;
 .btn-xlarge {
   font-size: 1.7em;
   background-color: #3d3d3d;
+  margin-left: -50px;
 }
 
 .btnm {
